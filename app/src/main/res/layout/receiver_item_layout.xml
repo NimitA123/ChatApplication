@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_margin="20dp"
+    android:layout_gravity="start"
+    android:id = "@+id/receiver_item_lay"
+    android:backgroundTint="@color/white"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "what are u doing"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id= "@+id/receiverMsg"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        />
+
+</androidx.cardview.widget.CardView>
